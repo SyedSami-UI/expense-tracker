@@ -6,12 +6,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Open [https://expense-tracker-demo.netlify.app/](https://expense-tracker-demo.netlify.app/)
 
 
-To view the application in local
+To view the application in local, do the first two steps.
 
 ## Available Scripts
 
 
 In the project directory, you can run:
+
+### `npm install`
+
+Runs to install the development dependencies
 
 ### `npm start`
 
