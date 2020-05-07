@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-### `App Demo Link`
+## `App Demo Link`
 
 Open [https://expense-tracker-demo.netlify.app/](https://expense-tracker-demo.netlify.app/)
 
