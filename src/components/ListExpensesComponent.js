@@ -164,9 +164,9 @@ class ExpensesComponent extends React.Component {
 
 
                                     <MDBCol className="text-left padding-bottom-10" size="5" sm="5"><p>{value.remarks}</p></MDBCol>
-                                    <MDBCol className="text-right padding-bottom-10" size="1" sm="1"><p>
+                                    <MDBCol className="text-right padding-bottom-10" size="1" sm="1"><p className="margin-right-15">
                                         <MDBIcon onClick={() => { this.editExpense(value.index) }} far style={{ fontSize: '1.5em' }} icon="edit" /></p></MDBCol>
-                                    <MDBCol className="text-right padding-bottom-10" size="1" sm="1"><p><MDBIcon onClick={() => { this.deleteExpense(value.index) }} style={{ fontSize: '1.5em' }} far icon="trash-alt" /></p></MDBCol>
+                                    <MDBCol className="text-right padding-bottom-10" size="1" sm="1"><p className="margin-right-15"><MDBIcon onClick={() => { this.deleteExpense(value.index) }} style={{ fontSize: '1.5em' }} far icon="trash-alt" /></p></MDBCol>
                                 </MDBRow>
                             </>
                         )
